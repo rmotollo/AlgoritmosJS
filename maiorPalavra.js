@@ -1,5 +1,5 @@
 function findLongestWordLength(str) {
-    strArray = str.split(' ')
+    strArray = str.split(' ');
     return strArray;
   }
   
