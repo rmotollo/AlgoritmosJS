@@ -7,7 +7,7 @@ function factorialize(num) {
     return factorial;
   }
 
-  function factorializeRecursion(num) {
+  export default function factorializeRecursion(num) {
     if (num === 0) {
       return 1;
     }
