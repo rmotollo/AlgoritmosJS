@@ -1,0 +1,98 @@
+#headerpage{
+    background-color: #fc4a1a;
+    display: flex;
+    border: 3px solid #F7B733;
+    border-radius: 5px;
+}
+
+
+body{
+    background-color: #8adaf7;
+    font-family: helvetica, 'Courier New', Courier, monospace;
+    max-width: 900px;
+    margin: auto;
+}
+#title, .subtitle, .posttitle {
+    color: #DFDCE3;
+
+}
+
+#title{
+    color: #F7B733;
+    text-align: justify;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline;
+    color: #505050;
+}
+
+.posttitle {
+    font-size: 16px;
+    font-style: italic;
+    font-family: helvetica, 'Courier New', Courier, monospace;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.postcontent{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.post {
+    background-color: #fc4a1a;
+    padding: 15px;
+    border: 3px solid #1D2731;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#playground{
+    box-sizing: border-box;
+    background-color: #fc4a1a;
+    padding: 15px;
+    border: 3px solid #1D2731;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+
+#contador{
+    text-align: center;
+}
+
+#contador p{
+    margin: 0;
+    font-size: 100px;
+}
+
+button{
+    border-radius: 5px;
+}
+
+.phototitle{
+    border: solid 1px #1D2731;
+    border-radius: 100px;
+    
+}
+
+.imgpost {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact_lists{
+    list-style-type: square ;
+    padding-left: 15px;
+}
+
+.contact_lists li a {
+    text-decoration: none;
+}
